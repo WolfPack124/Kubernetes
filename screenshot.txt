@@ -1,0 +1,2095 @@
+Microsoft Windows [Version 10.0.19041.508]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd ~
+The system cannot find the path specified.
+
+C:\WINDOWS\system32>cd ../../
+
+C:\>cd Users/
+
+C:\Users>dir
+ Volume in drive C is Windows X
+ Volume Serial Number is 7244-1F1A
+
+ Directory of C:\Users
+
+09/03/2020  03:24 PM    <DIR>          .
+09/03/2020  03:24 PM    <DIR>          ..
+10/10/2020  08:25 PM    <DIR>          aswanikumar
+09/03/2020  03:53 PM    <DIR>          defaultuser0
+09/04/2020  10:11 AM    <DIR>          Public
+               0 File(s)              0 bytes
+               5 Dir(s)  51,081,846,784 bytes free
+
+C:\Users>cd aswanikumar
+
+C:\Users\aswanikumar>dir
+ Volume in drive C is Windows X
+ Volume Serial Number is 7244-1F1A
+
+ Directory of C:\Users\aswanikumar
+
+10/10/2020  08:25 PM    <DIR>          .
+10/10/2020  08:25 PM    <DIR>          ..
+08/05/2018  12:51 PM    <DIR>          .android
+08/04/2018  09:32 PM    <DIR>          .AndroidStudio3.1
+07/21/2020  09:31 AM    <DIR>          .atom
+05/03/2018  10:20 AM    <DIR>          .config
+05/12/2019  11:14 AM    <DIR>          .ebookreader
+12/24/2016  07:44 PM    <DIR>          .eclipse
+10/10/2020  08:25 PM               209 .gitconfig
+08/05/2018  11:17 AM    <DIR>          .gradle
+05/29/2020  11:46 PM    <DIR>          .imibrowser
+10/08/2020  02:44 PM    <DIR>          .kube
+10/08/2020  02:41 PM    <DIR>          .minikube
+12/25/2016  06:55 PM    <DIR>          .ninja_ide
+05/03/2018  12:10 AM                14 .node_repl_history
+12/24/2016  07:44 PM    <DIR>          .p2
+01/24/2017  07:04 PM    <DIR>          .ssh
+10/09/2020  05:47 PM    <DIR>          .VirtualBox
+10/10/2020  08:10 PM    <DIR>          .vscode
+07/14/2020  08:25 PM    <DIR>          .zenmap
+09/03/2020  04:07 PM    <DIR>          3D Objects
+08/05/2018  03:36 PM    <DIR>          AndroidStudioProjects
+04/21/2017  11:22 PM    <DIR>          ChartNexus
+09/03/2020  04:08 PM    <DIR>          Contacts
+10/10/2020  08:28 PM    <DIR>          Desktop
+10/10/2020  12:03 AM    <DIR>          Documents
+10/10/2020  08:27 PM    <DIR>          Downloads
+09/01/2020  11:29 AM    <DIR>          Dropbox
+11/30/2017  12:53 AM                64 etherwalletkey.prv
+09/03/2020  04:08 PM    <DIR>          Favorites
+05/03/2018  10:16 AM    <DIR>          gitrepo
+12/22/2016  12:06 PM    <DIR>          Intel
+09/03/2020  04:08 PM    <DIR>          Links
+09/03/2020  04:08 PM    <DIR>          Music
+09/09/2020  04:15 PM    <DIR>          OneDrive
+09/09/2020  04:15 PM    <DIR>          OneDrive - Extreme Networks, Inc
+09/03/2020  04:08 PM    <DIR>          Pictures
+07/29/2019  01:46 PM    <DIR>          PM Schemes
+12/30/2016  03:31 PM    <DIR>          python_code
+09/03/2020  04:08 PM    <DIR>          Saved Games
+09/03/2020  04:08 PM    <DIR>          Searches
+10/10/2020  12:06 AM    <DIR>          source
+01/09/2017  09:34 AM    <DIR>          Tracing
+09/03/2020  04:08 PM    <DIR>          Videos
+06/08/2020  01:49 PM    <DIR>          VirtualBox VMs
+12/16/2017  02:47 PM    <DIR>          VMShare
+12/15/2017  10:26 AM    <DIR>          vshare
+               3 File(s)            287 bytes
+              44 Dir(s)  51,081,846,784 bytes free
+
+C:\Users\aswanikumar>cd Documents
+
+C:\Users\aswanikumar\Documents>cd GitHub
+
+C:\Users\aswanikumar\Documents\GitHub>cd Kubernetes
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>cd replicasets
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>kubectl get nodes
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>kubectl get pods
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>kubectl run hello-minikube
+Error: required flag(s) "image" not set
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>kubectl create -f replicaset.yaml
+Unable to connect to the server: dial tcp 192.168.99.100:8443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>minikube status
+minikube
+type: Control Plane
+host: Running
+kubelet: Stopped
+apiserver: Stopped
+kubeconfig: Configured
+
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>minikube start
+* minikube v1.13.1 on Microsoft Windows 10 Enterprise 10.0.19041 Build 19041
+* Using the virtualbox driver based on existing profile
+* Starting control plane node minikube in cluster minikube
+* Updating the running virtualbox "minikube" VM ...
+* Preparing Kubernetes v1.19.2 on Docker 19.03.12 ...
+* Verifying Kubernetes components...
+* Enabled addons: default-storageclass, storage-provisioner
+* Done! kubectl is now configured to use "minikube" by default
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>minikube status
+minikube
+type: Control Plane
+host: Running
+kubelet: Running
+apiserver: Running
+kubeconfig: Configured
+
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>kubectl cluster-info
+Kubernetes master is running at https://192.168.99.100:8443
+KubeDNS is running at https://192.168.99.100:8443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+
+To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>kubectl get pods
+NAME                              READY   STATUS    RESTARTS   AGE
+hello-minikube-5d9b964bfb-qtnq6   1/1     Running   1          2d20h
+nginx                             1/1     Running   1          2d13h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>kubectl create -f replicaset.yaml
+replicaset.apps/myapp-replicaset created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>kubectl get pods
+NAME                              READY   STATUS              RESTARTS   AGE
+hello-minikube-5d9b964bfb-qtnq6   1/1     Running             1          2d20h
+myapp-replicaset-9gh59            0/1     ContainerCreating   0          4s
+myapp-replicaset-l9dlp            0/1     ContainerCreating   0          4s
+myapp-replicaset-tdt77            0/1     ContainerCreating   0          4s
+nginx                             1/1     Running             1          2d13h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>kubectl get replicaset
+NAME                        DESIRED   CURRENT   READY   AGE
+hello-minikube-5d9b964bfb   1         1         1       2d20h
+myapp-replicaset            3         3         3       29s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>kubectl get pods
+NAME                              READY   STATUS    RESTARTS   AGE
+hello-minikube-5d9b964bfb-qtnq6   1/1     Running   1          2d20h
+myapp-replicaset-9gh59            1/1     Running   0          53s
+myapp-replicaset-l9dlp            1/1     Running   0          53s
+myapp-replicaset-tdt77            1/1     Running   0          53s
+nginx                             1/1     Running   1          2d13h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>kubectl delete pod myapp-replicaset-9gh59
+pod "myapp-replicaset-9gh59" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>kubectl get pods
+NAME                              READY   STATUS    RESTARTS   AGE
+hello-minikube-5d9b964bfb-qtnq6   1/1     Running   1          2d20h
+myapp-replicaset-l9dlp            1/1     Running   0          2m14s
+myapp-replicaset-tdt77            1/1     Running   0          2m14s
+myapp-replicaset-xphzm            1/1     Running   0          8s
+nginx                             1/1     Running   1          2d13h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>kubectl describe replicaset
+Name:           hello-minikube-5d9b964bfb
+Namespace:      default
+Selector:       app=hello-minikube,pod-template-hash=5d9b964bfb
+Labels:         app=hello-minikube
+                pod-template-hash=5d9b964bfb
+Annotations:    deployment.kubernetes.io/desired-replicas: 1
+                deployment.kubernetes.io/max-replicas: 2
+                deployment.kubernetes.io/revision: 1
+Controlled By:  Deployment/hello-minikube
+Replicas:       1 current / 1 desired
+Pods Status:    1 Running / 0 Waiting / 0 Succeeded / 0 Failed
+Pod Template:
+  Labels:  app=hello-minikube
+           pod-template-hash=5d9b964bfb
+  Containers:
+   echoserver:
+    Image:        k8s.gcr.io/echoserver:1.10
+    Port:         <none>
+    Host Port:    <none>
+    Environment:  <none>
+    Mounts:       <none>
+  Volumes:        <none>
+Events:           <none>
+
+
+Name:         myapp-replicaset
+Namespace:    default
+Selector:     app=myapp
+Labels:       app=myapp
+Annotations:  <none>
+Replicas:     3 current / 3 desired
+Pods Status:  3 Running / 0 Waiting / 0 Succeeded / 0 Failed
+Pod Template:
+  Labels:  app=myapp
+  Containers:
+   nginx:
+    Image:        nginx
+    Port:         <none>
+    Host Port:    <none>
+    Environment:  <none>
+    Mounts:       <none>
+  Volumes:        <none>
+Events:
+  Type    Reason            Age    From                   Message
+  ----    ------            ----   ----                   -------
+  Normal  SuccessfulCreate  3m19s  replicaset-controller  Created pod: myapp-replicaset-tdt77
+  Normal  SuccessfulCreate  3m19s  replicaset-controller  Created pod: myapp-replicaset-9gh59
+  Normal  SuccessfulCreate  3m19s  replicaset-controller  Created pod: myapp-replicaset-l9dlp
+  Normal  SuccessfulCreate  73s    replicaset-controller  Created pod: myapp-replicaset-xphzm
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\replicasets>cd ..
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>dir
+ Volume in drive C is Windows X
+ Volume Serial Number is 7244-1F1A
+
+ Directory of C:\Users\aswanikumar\Documents\GitHub\Kubernetes
+
+10/11/2020  12:52 PM    <DIR>          .
+10/11/2020  12:52 PM    <DIR>          ..
+10/10/2020  08:20 PM               395 .gitattributes
+10/10/2020  08:20 PM               696 .gitignore
+10/10/2020  08:46 PM               152 nginx.yaml
+10/11/2020  12:55 PM    <DIR>          replicasets
+               3 File(s)          1,243 bytes
+               3 Dir(s)  51,072,233,472 bytes free
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl create -f nginx.yaml
+pod/nginx-2 created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl get pods
+NAME                              READY   STATUS    RESTARTS   AGE
+hello-minikube-5d9b964bfb-qtnq6   1/1     Running   1          2d20h
+myapp-replicaset-l9dlp            1/1     Running   0          6m3s
+myapp-replicaset-tdt77            1/1     Running   0          6m3s
+myapp-replicaset-xphzm            1/1     Running   0          3m57s
+nginx                             1/1     Running   1          2d13h
+nginx-2                           1/1     Running   0          8s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl get pods
+NAME                              READY   STATUS    RESTARTS   AGE
+hello-minikube-5d9b964bfb-qtnq6   1/1     Running   1          2d20h
+myapp-replicaset-l9dlp            1/1     Running   0          6m22s
+myapp-replicaset-tdt77            1/1     Running   0          6m22s
+myapp-replicaset-xphzm            1/1     Running   0          4m16s
+nginx                             1/1     Running   1          2d13h
+nginx-2                           1/1     Running   0          27s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl get pods
+NAME                              READY   STATUS    RESTARTS   AGE
+hello-minikube-5d9b964bfb-qtnq6   1/1     Running   1          2d20h
+myapp-replicaset-l9dlp            1/1     Running   0          6m29s
+myapp-replicaset-tdt77            1/1     Running   0          6m29s
+myapp-replicaset-xphzm            1/1     Running   0          4m23s
+nginx                             1/1     Running   1          2d13h
+nginx-2                           1/1     Running   0          34s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl delete pod nginx-2
+pod "nginx-2" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl get pods
+NAME                              READY   STATUS    RESTARTS   AGE
+hello-minikube-5d9b964bfb-qtnq6   1/1     Running   1          2d20h
+myapp-replicaset-l9dlp            1/1     Running   0          7m46s
+myapp-replicaset-tdt77            1/1     Running   0          7m46s
+myapp-replicaset-xphzm            1/1     Running   0          5m40s
+nginx                             1/1     Running   1          2d13h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl create -f nginx.yaml
+pod/nginx-2 created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl get pods
+NAME                              READY   STATUS    RESTARTS   AGE
+hello-minikube-5d9b964bfb-qtnq6   1/1     Running   1          2d20h
+myapp-replicaset-l9dlp            1/1     Running   0          7m56s
+myapp-replicaset-tdt77            1/1     Running   0          7m56s
+myapp-replicaset-xphzm            1/1     Running   0          5m50s
+nginx                             1/1     Running   1          2d13h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl get pods
+NAME                              READY   STATUS    RESTARTS   AGE
+hello-minikube-5d9b964bfb-qtnq6   1/1     Running   1          2d20h
+myapp-replicaset-l9dlp            1/1     Running   0          8m1s
+myapp-replicaset-tdt77            1/1     Running   0          8m1s
+myapp-replicaset-xphzm            1/1     Running   0          5m55s
+nginx                             1/1     Running   1          2d13h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl get nodes
+NAME       STATUS   ROLES    AGE     VERSION
+minikube   Ready    master   2d23h   v1.19.2
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl create -f nginx.yaml
+pod/nginx-2 created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl get pods
+NAME                              READY   STATUS        RESTARTS   AGE
+hello-minikube-5d9b964bfb-qtnq6   1/1     Running       1          2d20h
+myapp-replicaset-l9dlp            1/1     Running       0          8m26s
+myapp-replicaset-tdt77            1/1     Running       0          8m26s
+myapp-replicaset-xphzm            1/1     Running       0          6m20s
+nginx                             1/1     Running       1          2d13h
+nginx-2                           0/1     Terminating   0          1s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl get pods
+NAME                              READY   STATUS    RESTARTS   AGE
+hello-minikube-5d9b964bfb-qtnq6   1/1     Running   1          2d20h
+myapp-replicaset-l9dlp            1/1     Running   0          8m31s
+myapp-replicaset-tdt77            1/1     Running   0          8m31s
+myapp-replicaset-xphzm            1/1     Running   0          6m25s
+nginx                             1/1     Running   1          2d13h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl edit replicasets myapp-replicaset
+replicaset.apps/myapp-replicaset edited
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl get pods
+NAME                              READY   STATUS              RESTARTS   AGE
+hello-minikube-5d9b964bfb-qtnq6   1/1     Running             1          2d20h
+myapp-replicaset-82vj7            0/1     ContainerCreating   0          10s
+myapp-replicaset-d5vp7            0/1     ContainerCreating   0          10s
+myapp-replicaset-l9dlp            1/1     Running             0          11m
+myapp-replicaset-n592b            1/1     Running             0          10s
+myapp-replicaset-tdt77            1/1     Running             0          11m
+myapp-replicaset-xphzm            1/1     Running             0          8m56s
+nginx                             1/1     Running             1          2d13h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl get pods
+NAME                              READY   STATUS    RESTARTS   AGE
+hello-minikube-5d9b964bfb-qtnq6   1/1     Running   1          2d20h
+myapp-replicaset-82vj7            1/1     Running   0          19s
+myapp-replicaset-d5vp7            1/1     Running   0          19s
+myapp-replicaset-l9dlp            1/1     Running   0          11m
+myapp-replicaset-n592b            1/1     Running   0          19s
+myapp-replicaset-tdt77            1/1     Running   0          11m
+myapp-replicaset-xphzm            1/1     Running   0          9m5s
+nginx                             1/1     Running   1          2d13h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>kubectl get all
+NAME                                  READY   STATUS    RESTARTS   AGE
+pod/hello-minikube-5d9b964bfb-qtnq6   1/1     Running   1          2d21h
+pod/myapp-replicaset-82vj7            1/1     Running   0          56m
+pod/myapp-replicaset-d5vp7            1/1     Running   0          56m
+pod/myapp-replicaset-l9dlp            1/1     Running   0          67m
+pod/myapp-replicaset-n592b            1/1     Running   0          56m
+pod/myapp-replicaset-tdt77            1/1     Running   0          67m
+pod/myapp-replicaset-xphzm            1/1     Running   0          65m
+pod/nginx                             1/1     Running   1          2d14h
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   2d21h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          3d
+
+NAME                             READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/hello-minikube   1/1     1            1           2d21h
+
+NAME                                        DESIRED   CURRENT   READY   AGE
+replicaset.apps/hello-minikube-5d9b964bfb   1         1         1       2d21h
+replicaset.apps/myapp-replicaset            6         6         6       67m
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>cd deployments
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>dir
+ Volume in drive C is Windows X
+ Volume Serial Number is 7244-1F1A
+
+ Directory of C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments
+
+10/11/2020  09:26 PM    <DIR>          .
+10/11/2020  09:26 PM    <DIR>          ..
+10/11/2020  09:29 PM               364 deployment.yaml
+               1 File(s)            364 bytes
+               2 Dir(s)  51,055,878,144 bytes free
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl create -f deployment.yaml
+deployment.apps/myapp-deployment created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get deployments
+NAME               READY   UP-TO-DATE   AVAILABLE   AGE
+hello-minikube     1/1     1            1           3d4h
+myapp-deployment   4/4     4            4           12s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get deployments
+NAME               READY   UP-TO-DATE   AVAILABLE   AGE
+hello-minikube     1/1     1            1           3d4h
+myapp-deployment   4/4     4            4           31s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl describe deployment myapp-deployment
+Name:                   myapp-deployment
+Namespace:              default
+CreationTimestamp:      Sun, 11 Oct 2020 21:29:49 +0530
+Labels:                 app=nginx
+                        tier=frontend
+Annotations:            deployment.kubernetes.io/revision: 1
+Selector:               app=myapp
+Replicas:               4 desired | 4 updated | 4 total | 4 available | 0 unavailable
+StrategyType:           RollingUpdate
+MinReadySeconds:        0
+RollingUpdateStrategy:  25% max unavailable, 25% max surge
+Pod Template:
+  Labels:  app=myapp
+  Containers:
+   nginx:
+    Image:        nginx
+    Port:         <none>
+    Host Port:    <none>
+    Environment:  <none>
+    Mounts:       <none>
+  Volumes:        <none>
+Conditions:
+  Type           Status  Reason
+  ----           ------  ------
+  Available      True    MinimumReplicasAvailable
+  Progressing    True    NewReplicaSetAvailable
+OldReplicaSets:  <none>
+NewReplicaSet:   myapp-replicaset (4/4 replicas created)
+Events:
+  Type    Reason             Age   From                   Message
+  ----    ------             ----  ----                   -------
+  Normal  ScalingReplicaSet  60s   deployment-controller  Scaled down replica set myapp-replicaset to 4
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get deployments
+NAME               READY   UP-TO-DATE   AVAILABLE   AGE
+hello-minikube     1/1     1            1           3d4h
+myapp-deployment   4/4     4            4           75s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get all
+NAME                                  READY   STATUS    RESTARTS   AGE
+pod/hello-minikube-5d9b964bfb-qtnq6   1/1     Running   1          3d4h
+pod/myapp-replicaset-l9dlp            1/1     Running   0          7h55m
+pod/myapp-replicaset-n592b            1/1     Running   0          7h44m
+pod/myapp-replicaset-tdt77            1/1     Running   0          7h55m
+pod/myapp-replicaset-xphzm            1/1     Running   0          7h53m
+pod/nginx                             1/1     Running   1          2d21h
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   3d4h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          3d6h
+
+NAME                               READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/hello-minikube     1/1     1            1           3d4h
+deployment.apps/myapp-deployment   4/4     4            4           97s
+
+NAME                                        DESIRED   CURRENT   READY   AGE
+replicaset.apps/hello-minikube-5d9b964bfb   1         1         1       3d4h
+replicaset.apps/myapp-replicaset            4         4         4       7h55m
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl rollout status
+error: required resource not specified
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl rollout status deployment
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl rollout status deployment/myapp
+Error from server (NotFound): deployments.apps "myapp" not found
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl rollout status deployment/myapp-deployment
+deployment "myapp-deployment" successfully rolled out
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get all
+NAME                                  READY   STATUS    RESTARTS   AGE
+pod/hello-minikube-5d9b964bfb-qtnq6   1/1     Running   1          3d5h
+pod/myapp-replicaset-l9dlp            1/1     Running   0          8h
+pod/myapp-replicaset-n592b            1/1     Running   0          8h
+pod/myapp-replicaset-tdt77            1/1     Running   0          8h
+pod/myapp-replicaset-xphzm            1/1     Running   0          8h
+pod/nginx                             1/1     Running   1          2d22h
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   3d5h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          3d7h
+
+NAME                               READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/hello-minikube     1/1     1            1           3d5h
+deployment.apps/myapp-deployment   4/4     4            4           45m
+
+NAME                                        DESIRED   CURRENT   READY   AGE
+replicaset.apps/hello-minikube-5d9b964bfb   1         1         1       3d5h
+replicaset.apps/myapp-replicaset            4         4         4       8h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl stop minikube
+Error: unknown command "stop" for "kubectl"
+
+Did you mean this?
+        top
+
+Run 'kubectl --help' for usage.
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl  minikube
+Error: unknown command "minikube" for "kubectl"
+Run 'kubectl --help' for usage.
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>minikube stop
+* Stopping node "minikube"  ...
+* 1 nodes stopped.
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>minikube start
+* minikube v1.13.1 on Microsoft Windows 10 Enterprise 10.0.19041 Build 19041
+* Using the virtualbox driver based on existing profile
+* Starting control plane node minikube in cluster minikube
+* Restarting existing virtualbox VM for "minikube" ...
+* Preparing Kubernetes v1.19.2 on Docker 19.03.12 ...
+* Verifying Kubernetes components...
+* Enabled addons: default-storageclass, storage-provisioner
+* Done! kubectl is now configured to use "minikube" by default
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl create -f deployment.yaml
+Error from server (AlreadyExists): error when creating "deployment.yaml": deployments.apps "myapp-deployment" already exists
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get pods
+NAME                              READY   STATUS    RESTARTS   AGE
+hello-minikube-5d9b964bfb-qtnq6   1/1     Running   2          3d5h
+myapp-replicaset-l9dlp            1/1     Running   1          8h
+myapp-replicaset-n592b            1/1     Running   1          8h
+myapp-replicaset-tdt77            1/1     Running   1          8h
+myapp-replicaset-xphzm            1/1     Running   1          8h
+nginx                             1/1     Running   2          2d22h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl delete deployment ?
+Error from server (NotFound): deployments.apps "?" not found
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl delete deployment
+error: resource(s) were provided, but no name, label selector, or --all flag specified
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl delete deployment --all
+deployment.apps "hello-minikube" deleted
+deployment.apps "myapp-deployment" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get all
+NAME                                  READY   STATUS        RESTARTS   AGE
+pod/hello-minikube-5d9b964bfb-qtnq6   1/1     Terminating   2          3d5h
+pod/nginx                             1/1     Running       2          2d22h
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   3d5h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          3d7h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl create -f deployment.yaml
+deployment.apps/myapp-deployment created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get all
+NAME                                   READY   STATUS              RESTARTS   AGE
+pod/hello-minikube-5d9b964bfb-qtnq6    0/1     Terminating         2          3d5h
+pod/myapp-deployment-fd8649446-2qk8k   0/1     ContainerCreating   0          3s
+pod/myapp-deployment-fd8649446-7dtbw   0/1     ContainerCreating   0          3s
+pod/myapp-deployment-fd8649446-c2qsg   0/1     ContainerCreating   0          3s
+pod/myapp-deployment-fd8649446-gfcgk   0/1     ContainerCreating   0          3s
+pod/myapp-deployment-fd8649446-sr8hb   0/1     ContainerCreating   0          3s
+pod/myapp-deployment-fd8649446-z8sph   0/1     ContainerCreating   0          3s
+pod/nginx                              1/1     Running             2          2d22h
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   3d5h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          3d7h
+
+NAME                               READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/myapp-deployment   0/6     6            0           3s
+
+NAME                                         DESIRED   CURRENT   READY   AGE
+replicaset.apps/myapp-deployment-fd8649446   6         6         0       3s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get all
+NAME                                   READY   STATUS              RESTARTS   AGE
+pod/myapp-deployment-fd8649446-2qk8k   0/1     ContainerCreating   0          14s
+pod/myapp-deployment-fd8649446-7dtbw   0/1     ContainerCreating   0          14s
+pod/myapp-deployment-fd8649446-c2qsg   1/1     Running             0          14s
+pod/myapp-deployment-fd8649446-gfcgk   0/1     ContainerCreating   0          14s
+pod/myapp-deployment-fd8649446-sr8hb   0/1     ContainerCreating   0          14s
+pod/myapp-deployment-fd8649446-z8sph   1/1     Running             0          14s
+pod/nginx                              1/1     Running             2          2d22h
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   3d5h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          3d7h
+
+NAME                               READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/myapp-deployment   2/6     6            2           14s
+
+NAME                                         DESIRED   CURRENT   READY   AGE
+replicaset.apps/myapp-deployment-fd8649446   6         6         2       14s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get all
+NAME                                   READY   STATUS              RESTARTS   AGE
+pod/myapp-deployment-fd8649446-2qk8k   0/1     ContainerCreating   0          19s
+pod/myapp-deployment-fd8649446-7dtbw   1/1     Running             0          19s
+pod/myapp-deployment-fd8649446-c2qsg   1/1     Running             0          19s
+pod/myapp-deployment-fd8649446-gfcgk   0/1     ContainerCreating   0          19s
+pod/myapp-deployment-fd8649446-sr8hb   0/1     ContainerCreating   0          19s
+pod/myapp-deployment-fd8649446-z8sph   1/1     Running             0          19s
+pod/nginx                              1/1     Running             2          2d22h
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   3d5h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          3d7h
+
+NAME                               READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/myapp-deployment   3/6     6            3           19s
+
+NAME                                         DESIRED   CURRENT   READY   AGE
+replicaset.apps/myapp-deployment-fd8649446   6         6         3       19s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl rollout status frployment/myapp-deployment
+error: the server doesn't have a resource type "frployment"
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl rollout status deployment/myapp-deployment
+deployment "myapp-deployment" successfully rolled out
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get pods
+NAME                               READY   STATUS    RESTARTS   AGE
+myapp-deployment-fd8649446-2qk8k   1/1     Running   0          2m1s
+myapp-deployment-fd8649446-7dtbw   1/1     Running   0          2m1s
+myapp-deployment-fd8649446-c2qsg   1/1     Running   0          2m1s
+myapp-deployment-fd8649446-gfcgk   1/1     Running   0          2m1s
+myapp-deployment-fd8649446-sr8hb   1/1     Running   0          2m1s
+myapp-deployment-fd8649446-z8sph   1/1     Running   0          2m1s
+nginx                              1/1     Running   2          2d22h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl rollout history deployment/myapp-deployment
+deployment.apps/myapp-deployment
+REVISION  CHANGE-CAUSE
+1         <none>
+
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get deployments
+NAME               READY   UP-TO-DATE   AVAILABLE   AGE
+myapp-deployment   6/6     6            6           12h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>dir
+ Volume in drive C is Windows X
+ Volume Serial Number is 7244-1F1A
+
+ Directory of C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments
+
+10/12/2020  11:02 AM    <DIR>          .
+10/12/2020  11:02 AM    <DIR>          ..
+10/11/2020  10:13 PM               364 deployment.yaml
+10/12/2020  11:04 AM               188 service-definition.yaml
+               2 File(s)            552 bytes
+               2 Dir(s)  50,995,118,080 bytes free
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl create -f service-definition.yaml
+service/myapp-service created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get svc
+NAME             TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   3d17h
+kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          3d20h
+myapp-service    NodePort    10.97.9.253      <none>        80:30004/TCP     23s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>minikube service myapp-service --url
+http://192.168.99.100:30004
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>docker run
+'docker' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get pods
+NAME                               READY   STATUS    RESTARTS   AGE
+myapp-deployment-fd8649446-2qk8k   1/1     Running   0          20h
+myapp-deployment-fd8649446-7dtbw   1/1     Running   0          20h
+myapp-deployment-fd8649446-c2qsg   1/1     Running   0          20h
+myapp-deployment-fd8649446-gfcgk   1/1     Running   0          20h
+myapp-deployment-fd8649446-sr8hb   1/1     Running   0          20h
+myapp-deployment-fd8649446-z8sph   1/1     Running   0          20h
+nginx                              1/1     Running   2          3d18h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get svc
+NAME             TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d3h
+myapp-service    NodePort    10.97.9.253      <none>        80:30004/TCP     7h29m
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl stop myapp-service
+Error: unknown command "stop" for "kubectl"
+
+Did you mean this?
+        top
+
+Run 'kubectl --help' for usage.
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl delete myapp-service
+error: the server doesn't have a resource type "myapp-service"
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl delete service myapp-service
+service "myapp-service" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get svc
+NAME             TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d3h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get pods
+NAME                               READY   STATUS    RESTARTS   AGE
+myapp-deployment-fd8649446-2qk8k   1/1     Running   0          20h
+myapp-deployment-fd8649446-7dtbw   1/1     Running   0          20h
+myapp-deployment-fd8649446-c2qsg   1/1     Running   0          20h
+myapp-deployment-fd8649446-gfcgk   1/1     Running   0          20h
+myapp-deployment-fd8649446-sr8hb   1/1     Running   0          20h
+myapp-deployment-fd8649446-z8sph   1/1     Running   0          20h
+nginx                              1/1     Running   2          3d18h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl delete deployment myapp-deployment
+deployment.apps "myapp-deployment" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get pods
+NAME                               READY   STATUS        RESTARTS   AGE
+myapp-deployment-fd8649446-2qk8k   0/1     Terminating   0          20h
+myapp-deployment-fd8649446-7dtbw   0/1     Terminating   0          20h
+myapp-deployment-fd8649446-c2qsg   1/1     Terminating   0          20h
+myapp-deployment-fd8649446-gfcgk   0/1     Terminating   0          20h
+myapp-deployment-fd8649446-sr8hb   0/1     Terminating   0          20h
+myapp-deployment-fd8649446-z8sph   0/1     Terminating   0          20h
+nginx                              1/1     Running       2          3d18h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get pods
+NAME    READY   STATUS    RESTARTS   AGE
+nginx   1/1     Running   2          3d18h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>kubectl get all
+NAME        READY   STATUS    RESTARTS   AGE
+pod/nginx   1/1     Running   2          3d18h
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d3h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>dir
+ Volume in drive C is Windows X
+ Volume Serial Number is 7244-1F1A
+
+ Directory of C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments
+
+10/12/2020  11:02 AM    <DIR>          .
+10/12/2020  11:02 AM    <DIR>          ..
+10/11/2020  10:13 PM               364 deployment.yaml
+10/12/2020  01:22 PM               188 service-definition.yaml
+               2 File(s)            552 bytes
+               2 Dir(s)  50,530,299,904 bytes free
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\deployments>cd ..
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>dir
+ Volume in drive C is Windows X
+ Volume Serial Number is 7244-1F1A
+
+ Directory of C:\Users\aswanikumar\Documents\GitHub\Kubernetes
+
+10/12/2020  04:36 PM    <DIR>          .
+10/12/2020  04:36 PM    <DIR>          ..
+10/10/2020  08:20 PM               395 .gitattributes
+10/10/2020  08:20 PM               696 .gitignore
+10/12/2020  11:02 AM    <DIR>          deployments
+10/12/2020  06:29 PM    <DIR>          Microservice-votingapp
+10/11/2020  01:43 PM               147 nginx.yaml
+10/11/2020  12:55 PM    <DIR>          replicasets
+               3 File(s)          1,238 bytes
+               5 Dir(s)  50,530,299,904 bytes free
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes>cd Microservice-votingapp
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>dir
+ Volume in drive C is Windows X
+ Volume Serial Number is 7244-1F1A
+
+ Directory of C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp
+
+10/12/2020  06:29 PM    <DIR>          .
+10/12/2020  06:29 PM    <DIR>          ..
+10/12/2020  06:28 PM               371 postgres-pod.yaml
+10/12/2020  06:24 PM               239 postgres-service.yaml
+10/12/2020  04:45 PM               226 redis-pod.yaml
+10/12/2020  06:23 PM               236 redis-service.yaml
+10/12/2020  04:56 PM               263 result-app-pod.yaml
+10/12/2020  06:33 PM               288 result-app-service.yaml
+10/12/2020  04:57 PM               261 voting-app-pod.yaml
+10/12/2020  06:32 PM               288 voting-app-service.yaml
+10/12/2020  04:56 PM               220 worker-app-pod.yaml
+               9 File(s)          2,392 bytes
+               2 Dir(s)  50,530,299,904 bytes free
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f voting-app-pod.yaml
+pod/voting-app-pod created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f voting-app-service.yaml
+service/voting-service created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods, svc
+error: arguments in resource/name form must have a single resource and name
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS    RESTARTS   AGE
+pod/nginx            1/1     Running   2          3d18h
+pod/voting-app-pod   1/1     Running   0          69s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d3h
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     27s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>minikube service voting-service --url
+http://192.168.99.100:30004
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f redis-pod.yaml
+pod/redis-pod created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f redis-service.yaml
+service/redis created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f postgres-pod.yaml
+pod/postgres-pod created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f postgres-service.yaml
+service/db created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     0/1     ContainerCreating   0          13s
+pod/redis-pod        1/1     Running             0          25s
+pod/voting-app-pod   1/1     Running             0          3m23s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         8s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d3h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         20s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     2m41s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     0/1     ContainerCreating   0          24s
+pod/redis-pod        1/1     Running             0          36s
+pod/voting-app-pod   1/1     Running             0          3m34s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         19s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d3h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         31s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     2m52s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     0/1     ContainerCreating   0          30s
+pod/redis-pod        1/1     Running             0          42s
+pod/voting-app-pod   1/1     Running             0          3m40s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         25s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d3h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         37s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     2m58s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS    RESTARTS   AGE
+pod/nginx            1/1     Running   2          3d18h
+pod/postgres-pod     1/1     Running   0          36s
+pod/redis-pod        1/1     Running   0          48s
+pod/voting-app-pod   1/1     Running   0          3m46s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         31s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d3h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         43s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     3m4s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp> kubectl create -f worker-app-pod.yaml
+pod/worker-app-pod created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     1/1     Running             0          2m11s
+pod/redis-pod        1/1     Running             0          2m23s
+pod/voting-app-pod   1/1     Running             0          5m21s
+pod/worker-app-pod   0/1     ContainerCreating   0          4s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         2m6s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         2m18s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     4m39s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     1/1     Running             0          2m18s
+pod/redis-pod        1/1     Running             0          2m30s
+pod/voting-app-pod   1/1     Running             0          5m28s
+pod/worker-app-pod   0/1     ContainerCreating   0          11s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         2m13s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         2m25s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     4m46s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     1/1     Running             0          2m23s
+pod/redis-pod        1/1     Running             0          2m35s
+pod/voting-app-pod   1/1     Running             0          5m33s
+pod/worker-app-pod   0/1     ContainerCreating   0          16s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         2m18s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         2m30s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     4m51s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     1/1     Running             0          2m33s
+pod/redis-pod        1/1     Running             0          2m45s
+pod/voting-app-pod   1/1     Running             0          5m43s
+pod/worker-app-pod   0/1     ContainerCreating   0          26s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         2m28s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         2m40s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     5m1s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f result-app-pod.yaml
+pod/result-app-pod created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f result-app-service.yaml
+service/result-service created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     1/1     Running             0          3m1s
+pod/redis-pod        1/1     Running             0          3m13s
+pod/result-app-pod   0/1     ContainerCreating   0          9s
+pod/voting-app-pod   1/1     Running             0          6m11s
+pod/worker-app-pod   0/1     ContainerCreating   0          54s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         2m56s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         3m8s
+service/result-service   NodePort    10.100.169.159   <none>        80:30005/TCP     2s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     5m29s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     1/1     Running             0          3m7s
+pod/redis-pod        1/1     Running             0          3m19s
+pod/result-app-pod   0/1     ContainerCreating   0          15s
+pod/voting-app-pod   1/1     Running             0          6m17s
+pod/worker-app-pod   0/1     ContainerCreating   0          60s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         3m2s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         3m14s
+service/result-service   NodePort    10.100.169.159   <none>        80:30005/TCP     8s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     5m35s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     1/1     Running             0          3m21s
+pod/redis-pod        1/1     Running             0          3m33s
+pod/result-app-pod   0/1     ContainerCreating   0          29s
+pod/voting-app-pod   1/1     Running             0          6m31s
+pod/worker-app-pod   0/1     ContainerCreating   0          74s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         3m16s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         3m28s
+service/result-service   NodePort    10.100.169.159   <none>        80:30005/TCP     22s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     5m49s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     1/1     Running             0          3m24s
+pod/redis-pod        1/1     Running             0          3m36s
+pod/result-app-pod   0/1     ContainerCreating   0          32s
+pod/voting-app-pod   1/1     Running             0          6m34s
+pod/worker-app-pod   0/1     ContainerCreating   0          77s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         3m19s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         3m31s
+service/result-service   NodePort    10.100.169.159   <none>        80:30005/TCP     25s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     5m52s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     1/1     Running             0          3m26s
+pod/redis-pod        1/1     Running             0          3m38s
+pod/result-app-pod   0/1     ContainerCreating   0          34s
+pod/voting-app-pod   1/1     Running             0          6m36s
+pod/worker-app-pod   0/1     ContainerCreating   0          79s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         3m21s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         3m33s
+service/result-service   NodePort    10.100.169.159   <none>        80:30005/TCP     27s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     5m54s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     1/1     Running             0          3m30s
+pod/redis-pod        1/1     Running             0          3m42s
+pod/result-app-pod   0/1     ContainerCreating   0          38s
+pod/voting-app-pod   1/1     Running             0          6m40s
+pod/worker-app-pod   0/1     ContainerCreating   0          83s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         3m25s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         3m37s
+service/result-service   NodePort    10.100.169.159   <none>        80:30005/TCP     31s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     5m58s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     1/1     Running             0          3m40s
+pod/redis-pod        1/1     Running             0          3m52s
+pod/result-app-pod   0/1     ContainerCreating   0          48s
+pod/voting-app-pod   1/1     Running             0          6m50s
+pod/worker-app-pod   0/1     ContainerCreating   0          93s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         3m35s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         3m47s
+service/result-service   NodePort    10.100.169.159   <none>        80:30005/TCP     41s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     6m8s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     1/1     Running             0          3m51s
+pod/redis-pod        1/1     Running             0          4m3s
+pod/result-app-pod   0/1     ContainerCreating   0          59s
+pod/voting-app-pod   1/1     Running             0          7m1s
+pod/worker-app-pod   0/1     ContainerCreating   0          104s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         3m46s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         3m58s
+service/result-service   NodePort    10.100.169.159   <none>        80:30005/TCP     52s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     6m19s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     1/1     Running             0          4m16s
+pod/redis-pod        1/1     Running             0          4m28s
+pod/result-app-pod   0/1     ContainerCreating   0          84s
+pod/voting-app-pod   1/1     Running             0          7m26s
+pod/worker-app-pod   0/1     ContainerCreating   0          2m9s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         4m11s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         4m23s
+service/result-service   NodePort    10.100.169.159   <none>        80:30005/TCP     77s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     6m44s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS              RESTARTS   AGE
+pod/nginx            1/1     Running             2          3d18h
+pod/postgres-pod     1/1     Running             0          4m19s
+pod/redis-pod        1/1     Running             0          4m31s
+pod/result-app-pod   0/1     ContainerCreating   0          87s
+pod/voting-app-pod   1/1     Running             0          7m29s
+pod/worker-app-pod   0/1     ContainerCreating   0          2m12s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         4m14s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         4m26s
+service/result-service   NodePort    10.100.169.159   <none>        80:30005/TCP     80s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     6m47s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS    RESTARTS   AGE
+pod/nginx            1/1     Running   2          3d18h
+pod/postgres-pod     1/1     Running   0          6m45s
+pod/redis-pod        1/1     Running   0          6m57s
+pod/result-app-pod   1/1     Running   0          3m53s
+pod/voting-app-pod   1/1     Running   0          9m55s
+pod/worker-app-pod   1/1     Running   0          4m38s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         6m40s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d1h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         6m52s
+service/result-service   NodePort    10.100.169.159   <none>        80:30005/TCP     3m46s
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     9m13s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>minikube service voting-service --url
+http://192.168.99.100:30004
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>minikube service result-service --url
+http://192.168.99.100:30005
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS    RESTARTS   AGE
+pod/nginx            1/1     Running   2          3d19h
+pod/postgres-pod     1/1     Running   0          40m
+pod/redis-pod        1/1     Running   0          40m
+pod/result-app-pod   1/1     Running   0          37m
+pod/voting-app-pod   1/1     Running   0          43m
+pod/worker-app-pod   1/1     Running   0          38m
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.103.30.12     <none>        5432/TCP         40m
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+service/redis            ClusterIP   10.99.150.191    <none>        6379/TCP         40m
+service/result-service   NodePort    10.100.169.159   <none>        80:30005/TCP     37m
+service/voting-service   NodePort    10.111.1.205     <none>        80:30004/TCP     42m
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl delete service voting-service
+service "voting-service" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl delete service result-service
+service "result-service" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl delete service redis
+service "redis" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl delete service db
+service "db" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS    RESTARTS   AGE
+pod/nginx            1/1     Running   2          3d19h
+pod/postgres-pod     1/1     Running   0          41m
+pod/redis-pod        1/1     Running   0          41m
+pod/result-app-pod   1/1     Running   0          38m
+pod/voting-app-pod   1/1     Running   0          44m
+pod/worker-app-pod   1/1     Running   0          39m
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl delete pods postgres-pod
+pod "postgres-pod" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl delete pods worker-app-pod
+pod "worker-app-pod" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl delete pods redis-pod
+pod "redis-pod" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                 READY   STATUS    RESTARTS   AGE
+pod/nginx            1/1     Running   2          3d19h
+pod/result-app-pod   1/1     Running   1          45m
+pod/voting-app-pod   1/1     Running   0          51m
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl delete pod result-app-pod
+pod "result-app-pod" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl delete pod voting-app-pod
+pod "voting-app-pod" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME        READY   STATUS    RESTARTS   AGE
+pod/nginx   1/1     Running   2          3d19h
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME        READY   STATUS    RESTARTS   AGE
+pod/nginx   1/1     Running   2          3d19h
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f redis-deployment.yaml
+deployment.apps/redis-deploy created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f postgres-deployment.yaml
+deployment.apps/postgres-deploy created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f worker-app-deployment.yaml
+deployment.apps/worker-app-deploy created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f voting-app-deployment.yaml
+deployment.apps/voting-app-deploy created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f result-app-deployment.yaml
+deployment.apps/result-app-deploy created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/nginx                                1/1     Running   2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running   0          48s
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running   0          53s
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running   0          5s
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running   0          12s
+pod/worker-app-deploy-799b5fb489-8598t   0/1     Error     1          21s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           48s
+deployment.apps/redis-deploy        1/1     1            1           54s
+deployment.apps/result-app-deploy   1/1     1            1           5s
+deployment.apps/voting-app-deploy   1/1     1            1           12s
+deployment.apps/worker-app-deploy   0/1     1            0           21s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       48s
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       53s
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       5s
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       12s
+replicaset.apps/worker-app-deploy-799b5fb489   1         1         0       21s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/nginx                                1/1     Running   2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running   0          76s
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running   0          81s
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running   0          33s
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running   0          40s
+pod/worker-app-deploy-799b5fb489-8598t   0/1     Error     2          49s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           76s
+deployment.apps/redis-deploy        1/1     1            1           82s
+deployment.apps/result-app-deploy   1/1     1            1           33s
+deployment.apps/voting-app-deploy   1/1     1            1           40s
+deployment.apps/worker-app-deploy   0/1     1            0           49s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       76s
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       81s
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       33s
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       40s
+replicaset.apps/worker-app-deploy-799b5fb489   1         1         0       49s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl describe pods worker-app-deploy-799b5fb489-8598t
+Name:         worker-app-deploy-799b5fb489-8598t
+Namespace:    default
+Priority:     0
+Node:         minikube/192.168.99.100
+Start Time:   Mon, 12 Oct 2020 19:32:19 +0530
+Labels:       app=demo-voting-app
+              name=worker-app-pod
+              pod-template-hash=799b5fb489
+Annotations:  <none>
+Status:       Running
+IP:           172.17.0.5
+IPs:
+  IP:           172.17.0.5
+Controlled By:  ReplicaSet/worker-app-deploy-799b5fb489
+Containers:
+  worker-app:
+    Container ID:   docker://8742d306a0dd98a2daf2ab13d6806e19b07710891a8b6d55711ab0996fef2b25
+    Image:          kodekloud/examplevotingapp_worker:v1
+    Image ID:       docker-pullable://kodekloud/examplevotingapp_worker@sha256:741e3aaaa812af72ce0c7fc5889ba31c3f90c79e650c2cb31807fffc60622263
+    Port:           <none>
+    Host Port:      <none>
+    State:          Waiting
+      Reason:       CrashLoopBackOff
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    1
+      Started:      Mon, 12 Oct 2020 19:33:21 +0530
+      Finished:     Mon, 12 Oct 2020 19:33:25 +0530
+    Ready:          False
+    Restart Count:  3
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-z9dtk (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             False
+  ContainersReady   False
+  PodScheduled      True
+Volumes:
+  default-token-z9dtk:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-z9dtk
+    Optional:    false
+QoS Class:       BestEffort
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                 node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type     Reason     Age                From               Message
+  ----     ------     ----               ----               -------
+  Normal   Scheduled  108s               default-scheduler  Successfully assigned default/worker-app-deploy-799b5fb489-8598t to minikube
+  Warning  BackOff    13s (x6 over 90s)  kubelet, minikube  Back-off restarting failed container
+  Normal   Pulled     0s (x5 over 106s)  kubelet, minikube  Container image "kodekloud/examplevotingapp_worker:v1" already present on machine
+  Normal   Created    0s (x5 over 106s)  kubelet, minikube  Created container worker-app
+  Normal   Started    0s (x5 over 106s)  kubelet, minikube  Started container worker-app
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS             RESTARTS   AGE
+pod/nginx                                1/1     Running            2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running            0          2m46s
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running            0          2m51s
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running            0          2m3s
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running            0          2m10s
+pod/worker-app-deploy-799b5fb489-8598t   0/1     CrashLoopBackOff   4          2m19s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           2m46s
+deployment.apps/redis-deploy        1/1     1            1           2m52s
+deployment.apps/result-app-deploy   1/1     1            1           2m3s
+deployment.apps/voting-app-deploy   1/1     1            1           2m10s
+deployment.apps/worker-app-deploy   0/1     1            0           2m19s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       2m46s
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       2m51s
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       2m3s
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       2m10s
+replicaset.apps/worker-app-deploy-799b5fb489   1         1         0       2m19s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl delete pod worker-app-deployment
+Error from server (NotFound): pods "worker-app-deployment" not found
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl delete pod worker-app
+Error from server (NotFound): pods "worker-app" not found
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl delete pod worker-app-deploy-799b5fb489-8598t
+pod "worker-app-deploy-799b5fb489-8598t" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/nginx                                1/1     Running   2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running   0          4m33s
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running   0          4m38s
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running   0          3m50s
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running   0          3m57s
+pod/worker-app-deploy-799b5fb489-m5xjb   1/1     Running   1          11s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           4m34s
+deployment.apps/redis-deploy        1/1     1            1           4m40s
+deployment.apps/result-app-deploy   1/1     1            1           3m51s
+deployment.apps/voting-app-deploy   1/1     1            1           3m58s
+deployment.apps/worker-app-deploy   1/1     1            1           4m7s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       4m34s
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       4m39s
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       3m51s
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       3m58s
+replicaset.apps/worker-app-deploy-799b5fb489   1         1         1       4m7s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>minikube service result-service --url
+
+X Exiting due to SVC_NOT_FOUND: Service 'result-service' was not found in 'default' namespace.
+You may select another namespace by using 'minikube service result-service -n <namespace>'. Or list out all the services using 'minikube service list'
+
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>minikube service result-service --url
+
+X Exiting due to SVC_NOT_FOUND: Service 'result-service' was not found in 'default' namespace.
+You may select another namespace by using 'minikube service result-service -n <namespace>'. Or list out all the services using 'minikube service list'
+
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get pods,svc
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/nginx                                1/1     Running   2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running   0          6m18s
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running   0          6m23s
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running   0          5m35s
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running   0          5m42s
+pod/worker-app-deploy-799b5fb489-m5xjb   0/1     Error     4          116s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS             RESTARTS   AGE
+pod/nginx                                1/1     Running            2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running            0          6m34s
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running            0          6m39s
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running            0          5m51s
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running            0          5m58s
+pod/worker-app-deploy-799b5fb489-m5xjb   0/1     CrashLoopBackOff   4          2m12s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           6m34s
+deployment.apps/redis-deploy        1/1     1            1           6m40s
+deployment.apps/result-app-deploy   1/1     1            1           5m51s
+deployment.apps/voting-app-deploy   1/1     1            1           5m58s
+deployment.apps/worker-app-deploy   0/1     1            0           6m7s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       6m34s
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       6m39s
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       5m51s
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       5m58s
+replicaset.apps/worker-app-deploy-799b5fb489   1         1         0       6m7s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl delete deployment worker-app-deployment
+Error from server (NotFound): deployments.apps "worker-app-deployment" not found
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl delete deployment worker-app-deployment.yaml
+Error from server (NotFound): deployments.apps "worker-app-deployment.yaml" not found
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl delete deployment worker-app-deploy
+deployment.apps "worker-app-deploy" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS        RESTARTS   AGE
+pod/nginx                                1/1     Running       2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running       0          7m24s
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running       0          7m29s
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running       0          6m41s
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running       0          6m48s
+pod/worker-app-deploy-799b5fb489-m5xjb   0/1     Terminating   4          3m2s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           7m24s
+deployment.apps/redis-deploy        1/1     1            1           7m30s
+deployment.apps/result-app-deploy   1/1     1            1           6m41s
+deployment.apps/voting-app-deploy   1/1     1            1           6m48s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       7m24s
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       7m29s
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       6m41s
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       6m48s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/nginx                                1/1     Running   2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running   0          7m39s
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running   0          7m44s
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running   0          6m56s
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running   0          7m3s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           7m39s
+deployment.apps/redis-deploy        1/1     1            1           7m45s
+deployment.apps/result-app-deploy   1/1     1            1           6m56s
+deployment.apps/voting-app-deploy   1/1     1            1           7m3s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       7m39s
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       7m44s
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       6m56s
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       7m3s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f worker-app-deployment.yaml
+deployment.apps/worker-app-deploy created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/nginx                                1/1     Running   2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running   0          7m59s
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running   0          8m4s
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running   0          7m16s
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running   0          7m23s
+pod/worker-app-deploy-799b5fb489-6cjsr   1/1     Running   0          3s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           7m59s
+deployment.apps/redis-deploy        1/1     1            1           8m5s
+deployment.apps/result-app-deploy   1/1     1            1           7m16s
+deployment.apps/voting-app-deploy   1/1     1            1           7m23s
+deployment.apps/worker-app-deploy   1/1     1            1           3s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       7m59s
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       8m4s
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       7m16s
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       7m23s
+replicaset.apps/worker-app-deploy-799b5fb489   1         1         1       3s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/nginx                                1/1     Running   2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running   0          8m6s
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running   0          8m11s
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running   0          7m23s
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running   0          7m30s
+pod/worker-app-deploy-799b5fb489-6cjsr   1/1     Running   1          10s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           8m6s
+deployment.apps/redis-deploy        1/1     1            1           8m12s
+deployment.apps/result-app-deploy   1/1     1            1           7m23s
+deployment.apps/voting-app-deploy   1/1     1            1           7m30s
+deployment.apps/worker-app-deploy   1/1     1            1           10s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       8m6s
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       8m11s
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       7m23s
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       7m30s
+replicaset.apps/worker-app-deploy-799b5fb489   1         1         1       10s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>minikube service result-service --url
+
+X Exiting due to SVC_NOT_FOUND: Service 'result-service' was not found in 'default' namespace.
+You may select another namespace by using 'minikube service result-service -n <namespace>'. Or list out all the services using 'minikube service list'
+
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>minikube service result-service --url
+
+X Exiting due to SVC_NOT_FOUND: Service 'result-service' was not found in 'default' namespace.
+You may select another namespace by using 'minikube service result-service -n <namespace>'. Or list out all the services using 'minikube service list'
+
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/nginx                                1/1     Running   2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running   0          8m58s
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running   0          9m3s
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running   0          8m15s
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running   0          8m22s
+pod/worker-app-deploy-799b5fb489-6cjsr   1/1     Running   3          62s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           8m58s
+deployment.apps/redis-deploy        1/1     1            1           9m4s
+deployment.apps/result-app-deploy   1/1     1            1           8m15s
+deployment.apps/voting-app-deploy   1/1     1            1           8m22s
+deployment.apps/worker-app-deploy   1/1     1            1           62s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       8m58s
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       9m3s
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       8m15s
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       8m22s
+replicaset.apps/worker-app-deploy-799b5fb489   1         1         1       62s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/nginx                                1/1     Running   2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running   0          9m4s
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running   0          9m9s
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running   0          8m21s
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running   0          8m28s
+pod/worker-app-deploy-799b5fb489-6cjsr   0/1     Error     3          68s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           9m4s
+deployment.apps/redis-deploy        1/1     1            1           9m10s
+deployment.apps/result-app-deploy   1/1     1            1           8m21s
+deployment.apps/voting-app-deploy   1/1     1            1           8m28s
+deployment.apps/worker-app-deploy   0/1     1            0           68s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       9m4s
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       9m9s
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       8m21s
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       8m28s
+replicaset.apps/worker-app-deploy-799b5fb489   1         1         0       68s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/nginx                                1/1     Running   2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running   0          9m11s
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running   0          9m16s
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running   0          8m28s
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running   0          8m35s
+pod/worker-app-deploy-799b5fb489-6cjsr   0/1     Error     3          75s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d4h
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           9m11s
+deployment.apps/redis-deploy        1/1     1            1           9m17s
+deployment.apps/result-app-deploy   1/1     1            1           8m28s
+deployment.apps/voting-app-deploy   1/1     1            1           8m35s
+deployment.apps/worker-app-deploy   0/1     1            0           75s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       9m11s
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       9m16s
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       8m28s
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       8m35s
+replicaset.apps/worker-app-deploy-799b5fb489   1         1         0       75s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl describe pods worker-app-deploy-799b5fb489-6cjsr
+Name:         worker-app-deploy-799b5fb489-6cjsr
+Namespace:    default
+Priority:     0
+Node:         minikube/192.168.99.100
+Start Time:   Mon, 12 Oct 2020 19:39:47 +0530
+Labels:       app=demo-voting-app
+              name=worker-app-pod
+              pod-template-hash=799b5fb489
+Annotations:  <none>
+Status:       Running
+IP:           172.17.0.5
+IPs:
+  IP:           172.17.0.5
+Controlled By:  ReplicaSet/worker-app-deploy-799b5fb489
+Containers:
+  worker-app:
+    Container ID:   docker://cb152f8cc341eff8e53f4699bd0b0c124190b948b91191f0285387a934c832cf
+    Image:          kodekloud/examplevotingapp_worker:v1
+    Image ID:       docker-pullable://kodekloud/examplevotingapp_worker@sha256:741e3aaaa812af72ce0c7fc5889ba31c3f90c79e650c2cb31807fffc60622263
+    Port:           <none>
+    Host Port:      <none>
+    State:          Waiting
+      Reason:       CrashLoopBackOff
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    1
+      Started:      Mon, 12 Oct 2020 19:40:48 +0530
+      Finished:     Mon, 12 Oct 2020 19:40:52 +0530
+    Ready:          False
+    Restart Count:  3
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-z9dtk (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             False
+  ContainersReady   False
+  PodScheduled      True
+Volumes:
+  default-token-z9dtk:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-z9dtk
+    Optional:    false
+QoS Class:       BestEffort
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                 node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type     Reason     Age                From               Message
+  ----     ------     ----               ----               -------
+  Normal   Scheduled  97s                default-scheduler  Successfully assigned default/worker-app-deploy-799b5fb489-6cjsr to minikube
+  Normal   Pulled     36s (x4 over 95s)  kubelet, minikube  Container image "kodekloud/examplevotingapp_worker:v1" already present on machine
+  Normal   Created    36s (x4 over 95s)  kubelet, minikube  Created container worker-app
+  Normal   Started    36s (x4 over 95s)  kubelet, minikube  Started container worker-app
+  Warning  BackOff    7s (x6 over 85s)   kubelet, minikube  Back-off restarting failed container
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS             RESTARTS   AGE
+pod/nginx                                1/1     Running            2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running            0          11m
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running            0          11m
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running            0          10m
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running            0          10m
+pod/worker-app-deploy-799b5fb489-6cjsr   0/1     CrashLoopBackOff   4          3m21s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d5h
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           11m
+deployment.apps/redis-deploy        1/1     1            1           11m
+deployment.apps/result-app-deploy   1/1     1            1           10m
+deployment.apps/voting-app-deploy   1/1     1            1           10m
+deployment.apps/worker-app-deploy   0/1     1            0           3m21s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       11m
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       11m
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       10m
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       10m
+replicaset.apps/worker-app-deploy-799b5fb489   1         1         0       3m21s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f postgres-service.yaml
+service/db created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f redis-service.yaml
+service/redis created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f voting-app-service.yaml
+service/voting-service created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f redis-service.yaml
+Error from server (AlreadyExists): error when creating "redis-service.yaml": services "redis" already exists
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f result-app-service.yaml
+service/result-service created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS             RESTARTS   AGE
+pod/nginx                                1/1     Running            2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running            0          12m
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running            0          12m
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running            0          11m
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running            0          11m
+pod/worker-app-deploy-799b5fb489-6cjsr   0/1     CrashLoopBackOff   5          4m39s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.101.82.80     <none>        5432/TCP         40s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d5h
+service/redis            ClusterIP   10.110.200.49    <none>        6379/TCP         24s
+service/result-service   NodePort    10.101.78.35     <none>        80:30005/TCP     4s
+service/voting-service   NodePort    10.107.129.82    <none>        80:30004/TCP     18s
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           12m
+deployment.apps/redis-deploy        1/1     1            1           12m
+deployment.apps/result-app-deploy   1/1     1            1           11m
+deployment.apps/voting-app-deploy   1/1     1            1           11m
+deployment.apps/worker-app-deploy   0/1     1            0           4m39s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       12m
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       12m
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       11m
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       11m
+replicaset.apps/worker-app-deploy-799b5fb489   1         1         0       4m39s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl delete deployment worker-app-deploy
+deployment.apps "worker-app-deploy" deleted
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl create -f worker-app-deployment.yaml
+deployment.apps/worker-app-deploy created
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/nginx                                1/1     Running   2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running   0          13m
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running   0          13m
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running   0          12m
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running   0          13m
+pod/worker-app-deploy-799b5fb489-jsqsv   1/1     Running   0          6s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.101.82.80     <none>        5432/TCP         101s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d5h
+service/redis            ClusterIP   10.110.200.49    <none>        6379/TCP         85s
+service/result-service   NodePort    10.101.78.35     <none>        80:30005/TCP     65s
+service/voting-service   NodePort    10.107.129.82    <none>        80:30004/TCP     79s
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           13m
+deployment.apps/redis-deploy        1/1     1            1           13m
+deployment.apps/result-app-deploy   1/1     1            1           12m
+deployment.apps/voting-app-deploy   1/1     1            1           13m
+deployment.apps/worker-app-deploy   1/1     1            1           6s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       13m
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       13m
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       12m
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       13m
+replicaset.apps/worker-app-deploy-799b5fb489   1         1         1       6s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/nginx                                1/1     Running   2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running   0          13m
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running   0          13m
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running   0          12m
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running   0          13m
+pod/worker-app-deploy-799b5fb489-jsqsv   1/1     Running   0          10s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.101.82.80     <none>        5432/TCP         105s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d5h
+service/redis            ClusterIP   10.110.200.49    <none>        6379/TCP         89s
+service/result-service   NodePort    10.101.78.35     <none>        80:30005/TCP     69s
+service/voting-service   NodePort    10.107.129.82    <none>        80:30004/TCP     83s
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           13m
+deployment.apps/redis-deploy        1/1     1            1           13m
+deployment.apps/result-app-deploy   1/1     1            1           12m
+deployment.apps/voting-app-deploy   1/1     1            1           13m
+deployment.apps/worker-app-deploy   1/1     1            1           10s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       13m
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       13m
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       12m
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       13m
+replicaset.apps/worker-app-deploy-799b5fb489   1         1         1       10s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>minikube service result-service --url
+http://192.168.99.100:30005
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>minikube service voting-service --url
+http://192.168.99.100:30004
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>kubectl get all
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/nginx                                1/1     Running   2          3d19h
+pod/postgres-deploy-6f787b796b-hh6hf     1/1     Running   0          14m
+pod/redis-deploy-5d7988b4bb-xpxp8        1/1     Running   0          14m
+pod/result-app-deploy-6cb79db456-f2ldd   1/1     Running   0          13m
+pod/voting-app-deploy-547678ccc7-4s9rb   1/1     Running   0          13m
+pod/worker-app-deploy-799b5fb489-jsqsv   1/1     Running   0          39s
+
+NAME                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/db               ClusterIP   10.101.82.80     <none>        5432/TCP         2m14s
+service/hello-minikube   NodePort    10.100.250.128   <none>        8080:32468/TCP   4d2h
+service/kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          4d5h
+service/redis            ClusterIP   10.110.200.49    <none>        6379/TCP         118s
+service/result-service   NodePort    10.101.78.35     <none>        80:30005/TCP     98s
+service/voting-service   NodePort    10.107.129.82    <none>        80:30004/TCP     112s
+
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/postgres-deploy     1/1     1            1           14m
+deployment.apps/redis-deploy        1/1     1            1           14m
+deployment.apps/result-app-deploy   1/1     1            1           13m
+deployment.apps/voting-app-deploy   1/1     1            1           13m
+deployment.apps/worker-app-deploy   1/1     1            1           39s
+
+NAME                                           DESIRED   CURRENT   READY   AGE
+replicaset.apps/postgres-deploy-6f787b796b     1         1         1       14m
+replicaset.apps/redis-deploy-5d7988b4bb        1         1         1       14m
+replicaset.apps/result-app-deploy-6cb79db456   1         1         1       13m
+replicaset.apps/voting-app-deploy-547678ccc7   1         1         1       13m
+replicaset.apps/worker-app-deploy-799b5fb489   1         1         1       39s
+
+C:\Users\aswanikumar\Documents\GitHub\Kubernetes\Microservice-votingapp>
